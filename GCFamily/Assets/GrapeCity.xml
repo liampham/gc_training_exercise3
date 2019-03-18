@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <employees>
+    <employee>
+      <employee_id>owen.nguyen</employee_id>
+      <private_key>Gpct123456</private_key>
+      <first_name>Owen</first_name>
+      <last_name>Nguyen</last_name>
+      <avatar>Assets/Owen.jpg</avatar>
+      <skype>thna1311</skype>
+      <outlook>owen.nguyen@grapecity.com</outlook>
+      <profile>Assets/default.html</profile>
+      <position>Program Manager, Team Leader</position>
+    </employee>
+ 
+    <employee>
+      <employee_id>phillip.nguyen</employee_id>
+      <private_key>Gpct123456</private_key>
+      <first_name>Phillip</first_name>
+      <last_name>Nguyen</last_name>
+      <avatar>Assets/PhillipNguyen.jpg</avatar>
+      <skype>manhtu86fit</skype>
+      <outlook>phillip.nguyen@grapecity.com</outlook>
+      <profile>Assets/default.html</profile>
+      <position>Developer</position>
+    </employee>
+
+    <employee>
+      <employee_id>liam.pham</employee_id>
+      <private_key>Gpct123456</private_key>
+      <first_name>Liam</first_name>
+      <last_name>Pham</last_name>
+      <avatar></avatar>
+      <skype>dinhanh.hust.vn@gmail.com</skype>
+      <outlook>liam.pham@grapecity.com</outlook>
+      <profile>Assets/liampham.html</profile>
+      <position>Developer</position>
+    </employee>
+
+    
+  </employees>
+    
+</root>  

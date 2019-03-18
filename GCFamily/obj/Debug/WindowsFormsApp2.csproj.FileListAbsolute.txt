@@ -1,0 +1,10 @@
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\bin\Debug\GCFamily.exe.config
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\bin\Debug\GCFamily.exe
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\bin\Debug\GCFamily.pdb
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.csprojResolveAssemblyReference.cache
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.Properties.Resources.resources
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.csproj.GenerateResource.Cache
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.exe
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.pdb
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.LoginForm.resources
+D:\WORK\WORKSPACE\C#TutorialWorkspace\GCFamily\GCFamily\obj\Debug\GCFamily.Dashboard.resources
