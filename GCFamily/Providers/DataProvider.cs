@@ -32,7 +32,6 @@ namespace GCFamily.Providers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
                 MessageBox.Show("Cannot read data files");
             }
         }
@@ -43,15 +42,19 @@ namespace GCFamily.Providers
             return _instance;
         }
 
+        /*Getting list of all employees of company*/
         public List<Employee> getEmployees()
         {
             return this.mEmployees.Values.ToList() ;
         }
 
+        /*Get current logged in user*/
         public Employee getUser()
         {
             return this.user;
         } 
+
+        /*Load all employee data from local files.*/
         public void LoadData()
         {
             try
@@ -69,23 +72,24 @@ namespace GCFamily.Providers
                                 {
                                     mEmployees.Add(employee.EmployeeID, employee);
                                 }
+                                continue;
                             }                            
                         }                        
                     }
-                }
-                Console.WriteLine(doc.ToString());
+                }            
             }
             catch
             {
 
             }
         }
-
+        /*Set current user that has been logged in. use this information to retrive data later. */
         public void setUserID(string employeeID)
         {
             this.user = this.getEmployee(employeeID);
         }
 
+        /*Get employee with specific ID, return null if not.*/
         public Employee getEmployee(string employeeID)
         {
             if (this.mEmployees.ContainsKey(employeeID)){

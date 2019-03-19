@@ -35,24 +35,22 @@ namespace GCFamily.DTO
 
         }
 
-        public Employee(XmlNode node)
-        {
+        public Employee(XmlNode node) : base()
+        {            
             if (node == null) return;
             if (!node.HasChildNodes) return;
             foreach(XmlNode child in node)
             {
                 if (child.Name.Equals(ParamsKey._EMPLOYEE_ID_)) { this.EmployeeID = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._PRIVATE_KEY_)) { this.PrivateKey = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._FIRST_NAME_)) {this.FirstName = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._LAST_NAME_)) { this.LastName = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._SKYPE_)) { this.Skype = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._OUTLOOK_)) { this.Outlook = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._AVATAR_)) { this.Avatar = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._PROFILE_)) { this.Profile = child.InnerText; }
-                if (child.Name.Equals(ParamsKey._POSITION_)) { this.Position = child.InnerText; }
-            }
-            
-
+                else if (child.Name.Equals(ParamsKey._PRIVATE_KEY_)) { this.PrivateKey = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._FIRST_NAME_)) {this.FirstName = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._LAST_NAME_)) { this.LastName = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._SKYPE_)) { this.Skype = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._OUTLOOK_)) { this.Outlook = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._AVATAR_)) { this.Avatar = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._PROFILE_)) { this.Profile = child.InnerText; }
+                else if (child.Name.Equals(ParamsKey._POSITION_)) { this.Position = child.InnerText; }
+            }          
         }
 
     }
